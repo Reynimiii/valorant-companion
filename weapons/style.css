@@ -1,0 +1,121 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 80px; 
+  }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+  }
+/*CSS FOR NAVIGATION BAR*/
+.navbar {
+  background-color: #101010; 
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #FF4655 !important; 
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: #FF4655 !important; 
+  font-weight: bold;
+}
+.navbar-brand img {
+  max-height: 50px; 
+  margin-right: 10px; 
+}
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+}
+.navbar-toggler {
+  border: 1px solid #ffffff; 
+}
+.navbar-toggler-icon {
+  background-color: #ffffff; 
+}
+
+/*WEAPONS & SKINS CSS*/
+.weapon-img {
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .skin-img {
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #cfcfcf;
+  }
+  
+  .modal-content{
+    background-color: #121212;
+  }
+
+  .btn:hover{
+    transform: scale(1.03);
+  }
+
+  
+  /*FOOTER CSS*/
+  .footer {
+    /* Normal position */
+    position: relative;
+    
+    background-color: transparent !important;
+    padding: 4px 0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  #scrollToTopBtn {
+    /* Keep inside the footer */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  #scrollToTopBtn:hover {
+    opacity: 1;
+  }
+  
+  

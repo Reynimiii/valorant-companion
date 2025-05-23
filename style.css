@@ -1,0 +1,41 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Valorant-style page title */
+.valorant-title {
+  font-family: 'Bebas Neue', sans-serif; /* or your TungstenBold if you have it */
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Ensure the span stays your signature red */
+.valorant-title .text-danger {
+  color: #FF4655 !important;
+}
+
+  .card {
+    background-color: #1e1e2f;
+    border: none;
+    transition: transform 0.2s;
+    cursor: default;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    color: #cfcfcf;
+    font-size: 0.85rem;
+  }
