@@ -2,6 +2,7 @@
 
 ### About
 _Valorant Companion is a small project of mine with the use of API: [Valorant-API](https://valorant-api.com)._
+
 _I wanted to make a website about the game that will also help new players learn the agents, the rotation of the map and can also check weapon skins, player cards and player titles._
 
 _PS. 
