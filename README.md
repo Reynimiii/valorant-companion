@@ -1,1 +1,5 @@
-This Website are missing a video or GIF for the ability of each agents.. the videos were too big too upload... I will try to upload it to another respiratory.
+## VALORANT COMPANION DESCRIPTION
+
+### short description for now
+
+_This website currently does not include agent ability videos/GIFs because the files were too large for the repository. I plan to upload them separately in another repository or external hosting soon._
